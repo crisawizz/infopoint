@@ -33,13 +33,11 @@ li.nav-item {
 .nav-item {
     cursor: pointer;
     position: relative;
-    height: 3em;
     font-size: 20px;
-b   order: none;
+    order: none;
     background: 0 0;
     padding-top: 16px;
     -webkit-appearance: none;
-    line-height: 1.5;
     text-align: left;
     display: flex;
     align-items: center;
