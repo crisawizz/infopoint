@@ -1,3 +1,89 @@
 <!DOCTYPE html>
-<p> 1 Description etc</p>
-<p>ha hi ha</p>
+<section class="search">
+    <article class="searchbar">
+      <form>
+        <input id="searchbar" type="search" name="q" placeholder="z.B. Gemeinde Zürich, Klimakarte">
+        <input type="submit" value="Go!">
+        <div>
+          <input type="checkbox" id="address-box" name="address-box" checked onclick="showPanel(this)">
+          <label for="address-box">Adressen</label>
+          <input type="checkbox" id="maps-box" name="maps-box" onclick="showPanel(this)">
+          <label for="maps-box">Karten</label>
+          <input type="checkbox" id="data-box" name="data-box" checked onclick="showPanel(this)">
+          <label for="data-box">Datenkatalog</label>
+          <input type="checkbox" id="support-box" name="support-box" checked onclick="showPanel(this)">
+          <label for="support-box">Support</label>
+        </div>
+      </form>
+    </article>
+    <article class="search-result">
+      <div id="address-panel" class="search-panels">
+        <h4>Adressen</h4>
+        <ul>
+          <li>Wasserweg</li>
+          <li>Wasserstrasse</li>
+        </ul>
+      </div>
+      <div id="maps-panel" class="hide-result search-panels">
+        <h4>Karten</h4>
+        <ul>
+          <li>ÖREB-Kataster</li>
+          <li>Grundwasserkarte</li>
+        </ul>
+      </div>
+      <div id="data-panel" class="search-panels">
+        <h4>Datenkatalog</h4>
+        <ul>
+          <li>Abwasser</li>
+          <li>Ökomorphologische Erhebung der Seeufer</li>
+        </ul>
+      </div>
+      <div id="support-panel" class="search-panels">
+        <h4>Support</h4>
+        <ul>
+          <li>FAQ Oberflächengewässer</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+  <section>
+    <h2>Themen</h2>
+    <nav>
+      <ul>
+        <li> Grundlagen </li>
+        <li> Natur/Umwelt </li>
+        <li> Energie </li>
+        <li> Verkehr </li>
+        <li> Gesellschaft </li>
+        <li> ÖREB </li>
+      </ul>
+    </nav>
+    <article>
+      <h3>Grundlagen</h3>
+      <div>
+        <p>asdfsdfghj</p>
+      </div>
+    </article>
+  </section>
+  <aside>
+    <ul>
+      <li>
+        <ul>
+          <li> <a href="#">News</a> </li>
+          <li> <a href="#">Aktuelle Projekte</a> </li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li> <a href="#">Twitter</a> </li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li> <a href="#">Karte des Monats</a> </li>
+          <li> <a href="#">Beliebteste Karte(n)</a> </li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+</main>

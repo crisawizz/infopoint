@@ -31,3 +31,44 @@ function populateTab(tab) {
     
         
 }
+
+function showPanel(checkbox) {
+	let panel;
+	if (checkbox.id == "address-box") {
+		panel = document.getElementById("address-panel");
+		if (checkbox.checked) {
+			panel.classList.remove("hide-result");
+
+		} else {
+			panel.classList.add("hide-result");
+		}
+
+	} else if (checkbox.id == "maps-box") {
+		panel = document.getElementById("maps-panel");
+		if (checkbox.checked) {
+			panel.classList.remove("hide-result");
+
+		} else {
+			panel.classList.add("hide-result");
+		}
+
+	} else if (checkbox.id == "data-box") {
+		panel = document.getElementById("data-panel");
+		if (checkbox.checked) {
+			panel.classList.remove("hide-result");
+
+		} else {
+			panel.classList.add("hide-result");
+		}
+
+	} else if (checkbox.id == "support-box") {
+		panel = document.getElementById("support-panel");
+		if (checkbox.checked) {
+			panel.classList.remove("hide-result");
+
+		} else {
+			panel.classList.add("hide-result");
+		}
+
+    }
+}
