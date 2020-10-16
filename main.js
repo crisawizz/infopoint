@@ -26,7 +26,8 @@ function populateTab(tab) {
         .then(response => response.text())
         .then(data => {
             document.getElementById(tab).innerHTML=data;
-            initMap();
+			initMap();
+			initMapJS();
         });
     
         

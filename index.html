@@ -6,20 +6,41 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.16/esri/css/main.css">
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="map_js.js"></script>
     <title>Tabs</title>
 </head>
 <body onload="init()">
     <header>
-        <h1>Hi there</h1>
+        <h1>Infopoint GIS</h1>
         <div class="tabs">
         <nav id="navigation">
             <ul class="main-navigation" role="navigation">
                 <li class="nav-item"><div id="tab1nav" class="is-active main-buttons" onclick="changeTab(this)">Home</div></li>
-                <li class="nav-item"><div id="tab2nav" class="is-not-active main-buttons" onclick="changeTab(this)">Karten</div></li>
-                <li class="nav-item"><div id="tab3nav" class="is-not-active main-buttons" onclick="changeTab(this)">Datenkatalog</div></li>
-                <li class="nav-item"><div id="tab4nav" class="is-not-active main-buttons" onclick="changeTab(this)">Support</div></li>
+                <li class="nav-item"><div id="tab2nav" class="is-not-active main-buttons" onclick="changeTab(this)">Karten (OL)</div></li>
+                <li class="nav-item"><div id="tab3nav" class="is-not-active main-buttons" onclick="changeTab(this)">Karten (JS API)</div></li>
+                <li class="nav-item"><div id="tab4nav" class="is-not-active main-buttons" onclick="changeTab(this)">Datenkatalog</div></li>
+                <li class="nav-item"><div id="tab5nav" class="is-not-active main-buttons" onclick="changeTab(this)">Support</div></li>
+                <li class="search-box">
+                    <article class="searchbar">
+                        <form>
+                          <input id="searchbar" type="search" name="q" placeholder="z.B. Gemeinde Zürich, Klimakarte">
+                          <input type="submit" value="Go!">
+                          <div>
+                            <input type="checkbox" id="address-box" name="address-box" checked onclick="showPanel(this)">
+                            <label for="address-box">Adressen</label>
+                            <input type="checkbox" id="maps-box" name="maps-box" onclick="showPanel(this)">
+                            <label for="maps-box">Karten</label>
+                            <input type="checkbox" id="data-box" name="data-box" checked onclick="showPanel(this)">
+                            <label for="data-box">Datenkatalog</label>
+                            <input type="checkbox" id="support-box" name="support-box" checked onclick="showPanel(this)">
+                            <label for="support-box">Support</label>
+                          </div>
+                        </form>
+                      </article>
+                </li>
             </ul>
         </nav>
         </div>
@@ -33,7 +54,31 @@
         </div>
         <div id="tab4" class="notdisplayedTab">
         </div>
+        <div id="tab5" class="notdisplayedTab">
+        </div>
     </section>
+    <aside>
+        <ul>
+          <li>
+            <ul>
+              <li> <a href="#">News</a> </li>
+              <li> <a href="#">Aktuelle Projekte</a> </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li> <a href="#">Twitter</a> </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li> <a href="#">Karte des Monats</a> </li>
+              <li> <a href="#">Beliebteste Karte(n)</a> </li>
+            </ul>
+          </li>
+        </ul>
+      </aside>
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+    <script src="https://js.arcgis.com/4.17/"></script>
 </body>
 </html>

@@ -1,6 +1,763 @@
 <!DOCTYPE html>
-<ul>
-    <li>test1</li>
-    <li>test2</li>
-    <li>item 3</li>
-</ul>
+<div class="row pagebody">
+    <div class="col-md-12">
+      <a title="zurück" class="btn btn-primary btn-sm" href="javascript:goBack()">
+<i class="glyphicon glyphicon-arrow-left"></i>
+</a>
+<a title="Geodaten" class="btn btn-primary btn-sm" href="/geodatensatz">
+<i class="glyphicon glyphicon-arrow-up"></i>
+</a>
+<a title="PDF generieren" class="btn btn-primary btn-sm" href="/geodatensatz/generatePDF?id=969">
+<i class="glyphicon icon-custom-pdf"></i>
+</a>
+
+<br>
+
+
+<div class="row">
+  <div class="col-md-12">
+      <div class="field body_title1">
+        Geodatensatz
+      </div>
+   </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+        <div class="field body_title">
+          Historische Karte J. Wild (~1850)  
+        </div>
+   </div>
+</div> 
+
+<div class="row">
+  <div class="col-md-12 ">
+      <div class="field">
+        <img src="show_image.jpg" alt="Show image">
+      </div>
+  </div>
+</div>
+
+<div class="panel-group">
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Kontakt
+      </h4>
+  </div>
+  <div id="kontake" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body">
+    <div class="row_nounderline ">
+      <div class="col-md-6">
+        <div class="panel-subtitle1">Verantwortlich für Geodaten</div>
+        <div class="field">
+          Amt für Raumentwicklung <br> 
+          Geoinformation 
+            
+            <br> 
+          <b>GIS  Produkte</b><br>
+          Stampfenbachstrasse
+             12 
+           <br>
+          8090
+             Zürich 
+           <br>
+          <br>
+          Tel: +41 43 259 30 22<br>
+          Tel direkt: +41 43 259 27 30<br>
+          E-Mail: <a href="mailto:gis@bd.zh.ch">gis@bd.zh.ch</a><br>
+          www: <a target="_blank" href="https://www.zh.ch/de/baudirektion/amt-fuer-raumentwicklung.html">https://www.zh.ch/de/baudirektion/amt-fuer-raumentwicklung.html</a><br>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel-subtitle1">Zuständig für Geometadaten</div>
+        <div class="field">
+          Amt für Raumentwicklung <br> 
+          Geoinformation 
+            
+            <br> 
+          <b>GIS  Produkte</b><br>
+          Stampfenbachstrasse
+             12 
+            <br>
+          8090
+             Zürich 
+            <br>
+          <br>
+          Tel: +41 43 259 30 22<br>
+          Tel direkt: +41 43 259 27 30<br>
+          E-Mail: <a href="mailto:gis@bd.zh.ch">gis@bd.zh.ch</a><br>
+          www: <a target="_blank" href="https://www.zh.ch/de/baudirektion/amt-fuer-raumentwicklung.html">https://www.zh.ch/de/baudirektion/amt-fuer-raumentwicklung.html</a><br>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Inhalt / Identifikation
+      </h4>
+  </div>
+  <div id="inhalt" class="panel-collapse collapse  in" role="tabpanel">
+    <div class="panel-body underline">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">GIS-ZH Nr.</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">187 </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Bezeichnung</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">Historische Karte J. Wild (~1850) </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Kurzbeschreibung</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">Wild-Karte oder Topographische Karte des Kantons Zürich 1:25000 . </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Beschreibung</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">Im Herbst 1842 beschloss der Zürcher Grosse Rat, eine Karte des Kantons Zürich erstellen zu lassen. In der Zeit von 1843 bis 1851 entstanden unter der Leitung von Johannes Wild aus Richterswil 27 Original-Messtischblätter im Massstab 1:25000. Die vierfarbige Wildkarte wurde in 30 Einzelblätter mit einer Blattgrösse von 48 x 30 cm resp. 12'000 m x 7500 m aufgeteilt. 
+<br>
+<br>Bedeutung der Farben
+<br>- Schwarz wählte man für die Dörfer und die alleinstehenden Gebäude, für Strassen und Wege, für Grenzen des Kantons, der Bezirke, der Kirchgemeinden, der Weinreben und des Waldes sowie für die Namen (Gemeindenamen, Flurnamen usw.) und die Zahlen von Höhepunkten. Alle Wohngebäude wurden durch schwarze Flächen, unbewohnte dagegen bloss mit Umrisslinien dargestellt. 
+<br>- In blauer Farbe werden Seen, Flüsse, Bäche und Kanäle, je nach Bedeutung, mit ein oder zwei Linien dargestellt. Eine feine blaue Paralellschraffur symbolisiert Riede, Sümpfe und Torfmoore.
+<br>- Blasses Grün tönt sämtliche Waldflächen.
+<br>- Braun wurde für die erstmalige Darstellung des Geländes anhand von Höhenkurven verwendet. Die Aequidistanz (Vertikalabstand der Höhenkurven) beträgt 10 m.
+<br> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Geokategorien / Themen</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">
+            Basiskarten, Landschaftsmodelle, Georeferenzdaten; Bevölkerung, Gesellschaft, Kultur
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Schlüsselwörter</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">Historische Karte </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Datum / Nachführung
+      </h4>
+  </div>
+  <div id="nachf" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Geodaten aktueller Stand</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">
+              31.12.1850
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Nachführungstyp</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">nicht geplant </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Bearbeitungsstatus</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">komplett </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Geometadaten letzte Änderung</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">
+                17.01.2018
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Ausdehnung / Referenzsystem / Massstab
+      </h4>
+  </div>
+  <div id="ausdehnung" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Geographisches Gebiet / Ausdehnung</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">
+              Kanton Zürich 
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Referenzsystem</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">CH1903+_LV95</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Erfassungsmassstab</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">1:25000</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Auflösung</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">2.5[m]</div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Datenformat
+      </h4>
+  </div>
+  <div id="datenformat" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Darstellungstyp</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">Raster</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel-subtitle">Datenformat</div>
+        </div>
+        <div class="col-md-9">
+          <div class="field">ESRI ArcSDE-Layer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        Gesetzgebung
+         </h4>
+    </div>
+    <div id="gesetz" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body underline">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="panel-subtitle">Geobasisdaten - ID</div>
+            </div>
+            <div class="col-md-9">
+              <div class="field">
+                  <a target="_blank" href="http://www.geobasisdaten.ch/index.php?lang=de&amp;loc=ZH&amp;data=36-ZH">36-ZH</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="panel-subtitle">Rechtliche Grundlagen</div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+                  <div class="col-md-3">
+                    <div class="panel-subtitle">Gesetzestyp</div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="panel-subtitle">Referenznummer</div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="panel-subtitle">Titel</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="panel-subtitle">Erlassdatum</div>
+                  </div>
+              </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div>kantonales Gesetz</div>
+                  </div>
+                  <div class="col-md-3">
+                    <div>LS 704.1 § 17 Abs. 2, § 21 Abs. 1</div>
+                  </div>
+                  <div class="col-md-4">
+                    <div><a target="_blank" href="http://www.zhlex.zh.ch/Erlass.html?Open&amp;Ordnr=704.1">Kantonales Geoinformationsgesetz (KGeoIG)</a></div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                      24.10.2011 
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="panel-subtitle">Geobasisdaten - Klasse</div>
+            </div>
+            <div class="col-md-9">
+              <div class="field">
+                IV Kantonsrecht / -zuständigkeit
+              </div>
+            </div>
+          </div>
+
+        <div class="row" style="border-bottom:none">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab">
+              <h4 class="panel-title">KGeoIV</h4>
+            </div>
+            <div class="panel" role="tabpanel">
+              <div class="panel-body">
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="panel-subtitle">Anhang KGeoIV</div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="field">
+                      Anhang 2
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="panel-subtitle">Zugangsberechtigungsstufe</div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="field">
+                      A
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="panel-subtitle">Freie Nutzung und Weitergabe</div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="field">
+                          Ja
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="panel-subtitle">Download-Dienst</div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="field">
+                      Ja
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="panel panel-default">
+
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Datenbezug
+      </h4>
+  </div>
+
+  <div id="datenabgabe" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+
+      <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">OGD-Geoshop</div>
+          </div>
+          <div class="col-md-2">
+            <div class="field">
+                Ja (kostenlos)
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="field">
+
+                  Download via GIS-Browser:<br>
+                    <a target="_blank" href="http://maps.zh.ch/?topic=WildkarteZH&amp;amp;showtab=ogddownload">Historische Karte J. Wild (~1850)</a>
+                    <br>
+              <br>
+
+                  187 Historische Karte J. Wild (~1850) mit:
+                  <br>
+                      - 187.1 Wild-Karte Kanton Zürich
+                      <br>
+                  <br>
+                  <br>
+
+            </div>
+          </div>
+      </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="panel-subtitle">Abgabeformat</div>
+            </div>
+            <div class="col-md-9">
+              <div class="field">
+                  JPEG/Worldfile (.jpg/.jgw); 
+              </div>
+            </div>
+          </div>
+
+                <div class="row">
+                  <div class="col-xs-3">
+                    <div class="panel-subtitle">WMS</div>
+                  </div>
+                  <div class="col-xs-9">
+                          <div class="field"><a href="/geodatenservice/1380">WMS  Historische Karte J. Wild (~1850)</a></div>
+                          <div class="field"><a href="/geodatenservice/2158">WMS Historische Karte J. Wild (~1850) (OGD)</a></div>
+                  </div>
+                </div>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="panel panel-default">
+
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Datenmodell
+      </h4>
+  </div>
+
+  <div id="datenmodell" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Model Repository</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">
+              <a target="_blank" href="http://models.geo.zh.ch">http://models.geo.zh.ch</a>
+              <br><br>
+              <strong>Die Modelle der Geobasisdaten des GIS-ZH befinden sich im Aufbau und deren Umsetzung ist im Gange.
+              <br> Bis auf weiteres haben die Modelle im Model Repository und die Modell-Dokumentationen einen rein informativen Charakter und weisen noch keinen Bezug zu den bisher publizierten Geodaten (Geodatenelementen) auf.</strong>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Datengrundlage
+      </h4>
+  </div>
+
+  <div id="datengrundlage" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Datenerfassung</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">
+              Die Wildkarte wurde mit einer Auflösung von 288 DPI und einer Farbriefe von 24 Bit gescannt und anschliessend georeferenziert. Als Grundlage für das Scanning diente die Faksimile-Ausgabe des Amt für Raumplanung, Abteilung Vermessung vom September 1990.
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Geodaten-/Metadaten-Anbindung
+      </h4>
+  </div>
+
+  <div id="vernetzung" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="panel-subtitle">GIS-Browser Karten</div>
+          </div>
+          <div class="col-xs-9">
+              <div class="field"><a href="/gb2/611">Historische Karte J. Wild (~1850)</a></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="panel-subtitle">Geodatenprodukte</div>
+          </div>
+          <div class="col-xs-9">
+              <div class="field"><a href="/geodatenprodukt/869">Historische Karten</a></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">Geocat</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">
+              <a target="_blank" href="http://www.geocat.ch/geonetwork/srv/ger/metadata.show?uuid=71c175f6-58e6-2ca0-f9d4-ae1f412dd444&amp;currTab=simple">http://www.geocat.ch/geonetwork/srv/ger/metadata.show?uuid=71c175f6-58e6-2ca0-f9d4-ae1f412dd444&amp;currTab=simple</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">OpendataSwiss</div>
+          </div>
+          <div class="col-md-9">
+
+            <div class="field">
+              <a target="_blank" href="http://opendata.swiss/de/perma/71c175f6-58e6-2ca0-f9d4-ae1f412dd444@geoinformation-kanton-zuerich">http://opendata.swiss/de/perma/71c175f6-58e6-2ca0-f9d4-ae1f412dd444@geoinformation-kanton-zuerich</a>
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title">
+      Arc-GIS
+      </h4>
+  </div>
+
+  <div id="arcgis" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body underline">
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">ArcMap .mxd</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">
+              <a href="/geodatensatz/969/downloadMXD">wild.mxd</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel-subtitle">ArcMap .lyr</div>
+          </div>
+          <div class="col-md-9">
+            <div class="field">
+                  
+                  <a href="/geodatensatz/1961/downloadLYR">RASOWNER.WILDKARTE.lyr</a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab">
+    <h4 class="panel-title"> Geodatenelemente
+      </h4>
+  </div>
+  <div id="allelementen" class="panel-collapse collapse" role="tabpanel">
+    <div class="panel-body ">
+      <div class="row" style="border-bottom:none">
+        <div class="col-md-12" style="padding:0px">
+          <div class="field">
+         
+                <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                      Wild-Karte Kanton Zürich
+                      </h4>
+                </div>
+                <div id="geoelementen0" class="panel-collapse collapse in" role="tabpanel">
+                  <div class="panel-body ">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="panel-subtitle">GIS-ZH Nr.</div>
+                      </div>
+                      <div class="col-md-9">
+                        <div class="field">187.1</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="panel-subtitle">Geometrietyp</div>
+                      </div>
+                      <div class="col-md-9">
+                        <div class="field">Keine (Tabelle)</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="panel-subtitle">Pfad\Filename</div>
+                      </div>
+                      <div class="col-md-9">
+                        <div class="field">RASOWNER.WILDKARTE</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="panel-subtitle">Sichtbarkeit</div>
+                      </div>
+                      <div class="col-md-9">
+                        <div class="field">Internet mit Datendownload
+                        </div>
+                      </div>
+                    </div>
+                      <div class="row" style="border-bottom:none">
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab">
+                            <h4 class="panel-title">Attribute
+                              </h4>
+                          </div>
+                          <div id="geoelementen0_attrib" class="panel-collapse collapse" role="tabpanel">
+                            <div class="panel-body">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <div class="panel-subtitle">Name</div>
+                                </div>
+                                <div class="col-md-2">
+                                  <div class="panel-subtitle">Typ</div>
+                                </div>
+                                <div class="col-md-1">
+                                  <div class="panel-subtitle">Einheit</div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="panel-subtitle">Beschreibung</div>
+                                </div>
+                              </div>
+                                <div class="row">
+                                  <div class="col-md-3">
+                                    <div class="field">VALUE</div>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <div class="field">Short Integer</div>
+                                  </div>
+                                  <div class="col-md-1">
+                                    <div class="field"></div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="field">Farbwert</div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<a title="zurück" class="btn btn-primary btn-sm" href="javascript:goBack()">
+<i class="glyphicon glyphicon-arrow-left"></i>
+</a>
+<a title="PDF generieren" class="btn btn-primary btn-sm" href="/geodatensatz/generatePDF?id=969">
+<i class="glyphicon icon-custom-pdf"></i>
+</a>
+
+
+
+    </div>
+  </div>
+  
+</div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css">
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="map_js.js"></script>
     <title>Tabs</title>
 </head>
 <body onload="init()">
