@@ -165,7 +165,7 @@ aside > ul > li >ul >li {
     display: felx;
 }
 
-//esri
+/* esri */
 
 
 .description {
@@ -250,4 +250,4 @@ aside > ul > li >ul >li {
     flex: 1 1 auto;
     word-wrap: break-word;
   }
-  //end esri
+/* end esri */
